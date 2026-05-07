@@ -1,0 +1,17 @@
+.app-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+  gap: 40px;
+  justify-items: center;
+  padding: 80px 40px;
+  width: 100%;
+  max-width: 1600px;
+  margin: 0 auto;
+}
+
+@media (max-width: 768px) {
+  .app-container {
+    padding: 40px 20px;
+    gap: 20px;
+  }
+}
